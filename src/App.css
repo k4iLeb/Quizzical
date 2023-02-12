@@ -96,4 +96,5 @@ font-family: 'Karla', sans-serif; */
   background-color: transparent;
   border-radius: 8px;
   border: 1px solid var(--border-main);
+  cursor: pointer;
 }
