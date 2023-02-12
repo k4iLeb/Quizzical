@@ -1,3 +1,6 @@
+main site
+https://opentdb.com/api_config.php
+
 5 Q, multiple:
 https://opentdb.com/api.php?amount=5&type=multiple
 
