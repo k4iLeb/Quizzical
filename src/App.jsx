@@ -5,7 +5,7 @@ import Start from "./components/Start";
 
 export default function App() {
   // ! TURN TO FALSE WHEN DONE
-  const [game, setGame] = useState(true);
+  const [game, setGame] = useState(false);
 
   function toggleGame() {
     setGame(true);
@@ -13,7 +13,7 @@ export default function App() {
 
   return (
     <div className="container">
-      {/* {!game && <Start startGame={toggleGame} />} */}
+      {!game && <Start startGame={toggleGame} />}
       {game && <Quiz />}
     </div>
   );
